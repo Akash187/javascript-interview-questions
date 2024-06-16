@@ -1,4 +1,4 @@
-import { Code, Stack, Title } from '@mantine/core'
+import { Button, Code, Stack, Title } from '@mantine/core'
 
 const INPUT_CODE = `
 maskify('5512103073210694');
@@ -22,6 +22,14 @@ const Solution = () => {
 		<Stack>
 			<Title order={3}>Input and Result</Title>
 			<Code block>{INPUT_CODE}</Code>
+			<Button
+				style={{ alignSelf: 'flex-start' }}
+				component="a"
+				target="_blank"
+				href="https://www.devtools.tech/questions/implement-a-credit-card-masker-or-klarna-frontend-interview-question-or-javascript/submissions/9q0lcYPHHJr6Z1ON299i?utm_source=social-share"
+			>
+				Solution on Devtools
+			</Button>
 		</Stack>
 	)
 }
