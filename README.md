@@ -1,4 +1,4 @@
-# React Interview Questions
+# Javascript Interview Questions
 
 This is a list of Javascript Interview Questions for Practise.
 
