@@ -1,0 +1,33 @@
+a:-webkit-any-link:focus-visible {
+  outline: 0
+}
+
+a {
+  text-decoration: none;
+  color          : inherit;
+}
+
+.logo {
+  height     : 10em;
+  padding    : 1.5em;
+  will-change: filter;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 1em #ffe364aa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Fixes tab size for code */
+.mantine-CodeHighlightTabs-pre {
+  tab-size: 2;
+}
