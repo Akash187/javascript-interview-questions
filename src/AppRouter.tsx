@@ -11,6 +11,12 @@ const ImplementCreditCardMasker = lazy(
 const CountNumberInArray = lazy(
 	() => import('./questions/count number in array/CountNumberInArray')
 )
+const ConvertStringInputIntoObject = lazy(
+	() =>
+		import(
+			'./questions/convert string input into object/ConvertStringInputIntoObject'
+		)
+)
 
 const AppRouters = createBrowserRouter([
 	{
@@ -29,6 +35,10 @@ const AppRouters = createBrowserRouter([
 			{
 				path: '/count-number-in-array',
 				element: <CountNumberInArray />
+			},
+			{
+				path: '/convert-string-input-into-object',
+				element: <ConvertStringInputIntoObject />
 			}
 		]
 	}

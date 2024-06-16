@@ -77,6 +77,13 @@ export default function Root() {
 						active={location.pathname === '/count-number-in-array'}
 						onClick={close}
 					/>
+					<NavLink
+						label="3. Convert String Input Into Object | Razorpay"
+						component={Link}
+						to="/convert-string-input-into-object"
+						active={location.pathname === '/convert-string-input-into-object'}
+						onClick={close}
+					/>
 				</ScrollArea>
 			</AppShell.Navbar>
 			<AppShell.Main>
