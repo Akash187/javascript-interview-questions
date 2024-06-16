@@ -8,6 +8,9 @@ const ImplementCreditCardMasker = lazy(
 			'./questions/implement a credit card masker/ImplementCreditCardMasker'
 		)
 )
+const CountNumberInArray = lazy(
+	() => import('./questions/count number in array/CountNumberInArray')
+)
 
 const AppRouters = createBrowserRouter([
 	{
@@ -22,6 +25,10 @@ const AppRouters = createBrowserRouter([
 			{
 				path: '/implement-a-credit-card-masker',
 				element: <ImplementCreditCardMasker />
+			},
+			{
+				path: '/count-number-in-array',
+				element: <CountNumberInArray />
 			}
 		]
 	}

@@ -70,6 +70,13 @@ export default function Root() {
 						active={location.pathname === '/implement-a-credit-card-masker'}
 						onClick={close}
 					/>
+					<NavLink
+						label="2. Count Number In Array | MakeMyTrip"
+						component={Link}
+						to="/count-number-in-array"
+						active={location.pathname === '/count-number-in-array'}
+						onClick={close}
+					/>
 				</ScrollArea>
 			</AppShell.Navbar>
 			<AppShell.Main>
