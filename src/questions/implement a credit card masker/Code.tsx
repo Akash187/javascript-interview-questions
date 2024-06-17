@@ -3,11 +3,6 @@ import '@mantine/code-highlight/styles.css'
 import { IconBrandJavascript } from '@tabler/icons-react'
 
 const jsCode = `
-/**
- * Read FAQs section on the left for more information on how to use the editor
-**/
-// DO NOT CHANGE FUNCTION NAME
-
 function isNumeric(val){
   return /^\d+$/.test(val)
 }

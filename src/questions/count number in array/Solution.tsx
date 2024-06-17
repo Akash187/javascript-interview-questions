@@ -14,7 +14,7 @@ countNumbers([1, [2, 3], [], [4, []], [5, 6]])
 // 6
 
 countNumbers([1, ["hello", 2], [true, 3], [4, false]])
-//4
+// 4
 `
 
 const Solution = () => {

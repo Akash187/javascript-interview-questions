@@ -3,11 +3,6 @@ import '@mantine/code-highlight/styles.css'
 import { IconBrandJavascript } from '@tabler/icons-react'
 
 const jsCode = `
-/**
- * Read FAQs section on the left for more information on how to use the editor
-**/
-// DO NOT CHANGE THE FUNCTION NAME
-
 function countNumbers(collection) {
   if(!Array.isArray(collection)){
     return 0
