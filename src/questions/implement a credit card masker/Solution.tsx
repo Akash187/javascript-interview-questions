@@ -26,7 +26,7 @@ const Solution = () => {
 				style={{ alignSelf: 'flex-start' }}
 				component="a"
 				target="_blank"
-				href="https://www.devtools.tech/questions/implement-a-credit-card-masker-or-klarna-frontend-interview-question-or-javascript/submissions/9q0lcYPHHJr6Z1ON299i?utm_source=social-share"
+				href="https://devtools.tech/questions/implement-a-credit-card-masker-or-klarna-frontend-interview-question-or-javascript/submissions/FiLl1hkfBMerKIYsv7Oe"
 			>
 				Solution on Devtools
 			</Button>

@@ -26,7 +26,7 @@ const Solution = () => {
 				style={{ alignSelf: 'flex-start' }}
 				component="a"
 				target="_blank"
-				href="https://devtools.tech/questions/write-a-function-to-return-the-count-of-numbers-in-an-array-or-makemytrip-frontend-interview-question/submissions/4B4BTQxQsfb52Wde2FXP"
+				href="https://devtools.tech/questions/write-a-function-to-return-the-count-of-numbers-in-an-array-or-makemytrip-frontend-interview-question/submissions/NexTAeqVZ02YjkgyXYQz"
 			>
 				Solution on Devtools
 			</Button>

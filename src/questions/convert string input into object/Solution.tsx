@@ -30,7 +30,7 @@ const Solution = () => {
 				style={{ alignSelf: 'flex-start' }}
 				component="a"
 				target="_blank"
-				href="https://devtools.tech/questions/how-to-implement-a-function-to-convert-a-string-input-into-an-object-or-razorpay-interview-question-or-javascript/submissions/nDZ6MjzYTljJcx6KmO2e"
+				href="https://devtools.tech/questions/how-to-implement-a-function-to-convert-a-string-input-into-an-object-or-razorpay-interview-question-or-javascript/submissions/OkqSOlm7wO14qULDZjcV"
 			>
 				Solution on Devtools
 			</Button>
