@@ -84,6 +84,13 @@ export default function Root() {
 						active={location.pathname === '/convert-string-input-into-object'}
 						onClick={close}
 					/>
+					<NavLink
+						label="4. Feature Flag Functionality"
+						component={Link}
+						to="/feature-flag-functionality"
+						active={location.pathname === '/feature-flag-functionality'}
+						onClick={close}
+					/>
 				</ScrollArea>
 			</AppShell.Navbar>
 			<AppShell.Main>

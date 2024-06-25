@@ -17,6 +17,10 @@ const ConvertStringInputIntoObject = lazy(
 			'./questions/convert string input into object/ConvertStringInputIntoObject'
 		)
 )
+const FeatureFlagFunctionality = lazy(
+	() =>
+		import('./questions/feature flag functionality/FeatureFlagFunctionality')
+)
 
 const AppRouters = createBrowserRouter([
 	{
@@ -39,6 +43,10 @@ const AppRouters = createBrowserRouter([
 			{
 				path: '/convert-string-input-into-object',
 				element: <ConvertStringInputIntoObject />
+			},
+			{
+				path: '/feature-flag-functionality',
+				element: <FeatureFlagFunctionality />
 			}
 		]
 	}
