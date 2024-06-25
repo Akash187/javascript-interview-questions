@@ -64,21 +64,21 @@ export default function Root() {
 			<AppShell.Navbar>
 				<ScrollArea p="xs">
 					<NavLink
-						label="1. Implement a Credit Card Masker | Klarna"
+						label="1. Implement a Credit Card Masker"
 						component={Link}
 						to="/implement-a-credit-card-masker"
 						active={location.pathname === '/implement-a-credit-card-masker'}
 						onClick={close}
 					/>
 					<NavLink
-						label="2. Count Number In Array | MakeMyTrip"
+						label="2. Count Number In Array"
 						component={Link}
 						to="/count-number-in-array"
 						active={location.pathname === '/count-number-in-array'}
 						onClick={close}
 					/>
 					<NavLink
-						label="3. Convert String Input Into Object | Razorpay"
+						label="3. Convert String Input Into Object"
 						component={Link}
 						to="/convert-string-input-into-object"
 						active={location.pathname === '/convert-string-input-into-object'}
