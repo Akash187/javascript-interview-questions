@@ -21,6 +21,12 @@ const FeatureFlagFunctionality = lazy(
 	() =>
 		import('./questions/feature flag functionality/FeatureFlagFunctionality')
 )
+const MostFrequentWordInParagraph = lazy(
+	() =>
+		import(
+			'./questions/most frequent word in a paragraph/MostFrequentWordInParagraph'
+		)
+)
 
 const AppRouters = createBrowserRouter([
 	{
@@ -47,6 +53,10 @@ const AppRouters = createBrowserRouter([
 			{
 				path: '/feature-flag-functionality',
 				element: <FeatureFlagFunctionality />
+			},
+			{
+				path: '/most-frequent-word-in-a-paragraph',
+				element: <MostFrequentWordInParagraph />
 			}
 		]
 	}

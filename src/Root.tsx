@@ -91,6 +91,13 @@ export default function Root() {
 						active={location.pathname === '/feature-flag-functionality'}
 						onClick={close}
 					/>
+					<NavLink
+						label="5. Most Frequent Word In a Paragraph"
+						component={Link}
+						to="/most-frequent-word-in-a-paragraph"
+						active={location.pathname === '/most-frequent-word-in-a-paragraph'}
+						onClick={close}
+					/>
 				</ScrollArea>
 			</AppShell.Navbar>
 			<AppShell.Main>
