@@ -36,6 +36,9 @@ const DeepEqualityBetweenObjects = lazy(
 			'./questions/check deep equality between objects/DeepEqualityBetweenObjects'
 		)
 )
+const ImplementPromiseMerge = lazy(
+	() => import('./questions/implement promiseMerge/ImplementPromiseMerge')
+)
 
 const AppRouters = createBrowserRouter([
 	{
@@ -74,6 +77,10 @@ const AppRouters = createBrowserRouter([
 			{
 				path: '/check-deep-equality-between-objects',
 				element: <DeepEqualityBetweenObjects />
+			},
+			{
+				path: '/implement-promisemerge',
+				element: <ImplementPromiseMerge />
 			}
 		]
 	}

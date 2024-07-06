@@ -114,6 +114,13 @@ export default function Root() {
 						}
 						onClick={close}
 					/>
+					<NavLink
+						label="8. Implement PromiseMerge"
+						component={Link}
+						to="/implement-promisemerge"
+						active={location.pathname === '/implement-promisemerge'}
+						onClick={close}
+					/>
 				</ScrollArea>
 			</AppShell.Navbar>
 			<AppShell.Main>
