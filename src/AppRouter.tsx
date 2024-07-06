@@ -39,6 +39,12 @@ const DeepEqualityBetweenObjects = lazy(
 const ImplementPromiseMerge = lazy(
 	() => import('./questions/implement promiseMerge/ImplementPromiseMerge')
 )
+const ConvertAllObjectKeysToCamelCase = lazy(
+	() =>
+		import(
+			'./questions/convert all object keys to camel case/ConvertAllObjectKeysToCamelCase'
+		)
+)
 
 const AppRouters = createBrowserRouter([
 	{
@@ -81,6 +87,10 @@ const AppRouters = createBrowserRouter([
 			{
 				path: '/implement-promisemerge',
 				element: <ImplementPromiseMerge />
+			},
+			{
+				path: '/convert-all-object-keys-to-camel-case',
+				element: <ConvertAllObjectKeysToCamelCase />
 			}
 		]
 	}

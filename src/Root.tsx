@@ -121,6 +121,15 @@ export default function Root() {
 						active={location.pathname === '/implement-promisemerge'}
 						onClick={close}
 					/>
+					<NavLink
+						label="9. Convert Object Keys To Camel Case"
+						component={Link}
+						to="/convert-all-object-keys-to-camel-case"
+						active={
+							location.pathname === '/convert-all-object-keys-to-camel-case'
+						}
+						onClick={close}
+					/>
 				</ScrollArea>
 			</AppShell.Navbar>
 			<AppShell.Main>
