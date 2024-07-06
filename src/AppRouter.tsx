@@ -27,6 +27,9 @@ const MostFrequentWordInParagraph = lazy(
 			'./questions/most frequent word in a paragraph/MostFrequentWordInParagraph'
 		)
 )
+const ImplementPipeUtility = lazy(
+	() => import('./questions/implement pipe utility/ImplementPipeUtility')
+)
 
 const AppRouters = createBrowserRouter([
 	{
@@ -57,6 +60,10 @@ const AppRouters = createBrowserRouter([
 			{
 				path: '/most-frequent-word-in-a-paragraph',
 				element: <MostFrequentWordInParagraph />
+			},
+			{
+				path: '/implement-pipe-utility',
+				element: <ImplementPipeUtility />
 			}
 		]
 	}

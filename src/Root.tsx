@@ -98,6 +98,13 @@ export default function Root() {
 						active={location.pathname === '/most-frequent-word-in-a-paragraph'}
 						onClick={close}
 					/>
+					<NavLink
+						label="6. Implement Pipe Utility"
+						component={Link}
+						to="/implement-pipe-utility"
+						active={location.pathname === '/implement-pipe-utility'}
+						onClick={close}
+					/>
 				</ScrollArea>
 			</AppShell.Navbar>
 			<AppShell.Main>
