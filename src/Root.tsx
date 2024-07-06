@@ -105,6 +105,15 @@ export default function Root() {
 						active={location.pathname === '/implement-pipe-utility'}
 						onClick={close}
 					/>
+					<NavLink
+						label="7. Check Object Deep Equality"
+						component={Link}
+						to="/check-deep-equality-between-objects"
+						active={
+							location.pathname === '/check-deep-equality-between-objects'
+						}
+						onClick={close}
+					/>
 				</ScrollArea>
 			</AppShell.Navbar>
 			<AppShell.Main>

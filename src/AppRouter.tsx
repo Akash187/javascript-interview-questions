@@ -30,6 +30,12 @@ const MostFrequentWordInParagraph = lazy(
 const ImplementPipeUtility = lazy(
 	() => import('./questions/implement pipe utility/ImplementPipeUtility')
 )
+const DeepEqualityBetweenObjects = lazy(
+	() =>
+		import(
+			'./questions/check deep equality between objects/DeepEqualityBetweenObjects'
+		)
+)
 
 const AppRouters = createBrowserRouter([
 	{
@@ -64,6 +70,10 @@ const AppRouters = createBrowserRouter([
 			{
 				path: '/implement-pipe-utility',
 				element: <ImplementPipeUtility />
+			},
+			{
+				path: '/check-deep-equality-between-objects',
+				element: <DeepEqualityBetweenObjects />
 			}
 		]
 	}
