@@ -51,6 +51,12 @@ const SplitArrayIntoNChunks = lazy(
 			'./questions/split an array into groups of a certain length/SplitArrayIntoNChunks'
 		)
 )
+const InvokeCallbackAtmostNTimes = lazy(
+	() =>
+		import(
+			'./questions/invoke callback atmost N times/InvokeCallbackAtmostNTimes'
+		)
+)
 
 const AppRouters = createBrowserRouter([
 	{
@@ -101,6 +107,10 @@ const AppRouters = createBrowserRouter([
 			{
 				path: '/split-an-array-into-groups-of-a-certain-length',
 				element: <SplitArrayIntoNChunks />
+			},
+			{
+				path: '/invoke-callback-atmost-N-times',
+				element: <InvokeCallbackAtmostNTimes />
 			}
 		]
 	}

@@ -140,6 +140,13 @@ export default function Root() {
 						}
 						onClick={close}
 					/>
+					<NavLink
+						label="11. Invoke Callback Atmost N Times"
+						component={Link}
+						to="/invoke-callback-atmost-N-times"
+						active={location.pathname === '/invoke-callback-atmost-N-times'}
+						onClick={close}
+					/>
 				</ScrollArea>
 			</AppShell.Navbar>
 			<AppShell.Main>
