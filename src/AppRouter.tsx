@@ -45,6 +45,12 @@ const ConvertAllObjectKeysToCamelCase = lazy(
 			'./questions/convert all object keys to camel case/ConvertAllObjectKeysToCamelCase'
 		)
 )
+const SplitArrayIntoNChunks = lazy(
+	() =>
+		import(
+			'./questions/implemsplit an array into groups of a certain length/SplitArrayIntoNChunks'
+		)
+)
 
 const AppRouters = createBrowserRouter([
 	{
@@ -91,6 +97,10 @@ const AppRouters = createBrowserRouter([
 			{
 				path: '/convert-all-object-keys-to-camel-case',
 				element: <ConvertAllObjectKeysToCamelCase />
+			},
+			{
+				path: '/split-an-array-into-groups-of-a-certain-length',
+				element: <SplitArrayIntoNChunks />
 			}
 		]
 	}

@@ -130,6 +130,16 @@ export default function Root() {
 						}
 						onClick={close}
 					/>
+					<NavLink
+						label="10. Split Array Into N Chunks"
+						component={Link}
+						to="/split-an-array-into-groups-of-a-certain-length"
+						active={
+							location.pathname ===
+							'/split-an-array-into-groups-of-a-certain-length'
+						}
+						onClick={close}
+					/>
 				</ScrollArea>
 			</AppShell.Navbar>
 			<AppShell.Main>
