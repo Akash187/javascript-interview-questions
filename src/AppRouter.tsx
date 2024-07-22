@@ -48,7 +48,7 @@ const ConvertAllObjectKeysToCamelCase = lazy(
 const SplitArrayIntoNChunks = lazy(
 	() =>
 		import(
-			'./questions/implemsplit an array into groups of a certain length/SplitArrayIntoNChunks'
+			'./questions/split an array into groups of a certain length/SplitArrayIntoNChunks'
 		)
 )
 
