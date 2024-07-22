@@ -29,6 +29,9 @@ const SplitArrayIntoNChunks = () => {
 						<Badge color="teal" size="md">
 							Lodash Polyfill
 						</Badge>
+						<Badge color="teal" size="md">
+							Array
+						</Badge>
 					</Group>
 				</Stack>
 				<Button
