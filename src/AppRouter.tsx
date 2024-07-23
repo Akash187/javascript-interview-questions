@@ -57,6 +57,12 @@ const InvokeCallbackAtmostNTimes = lazy(
 			'./questions/invoke callback atmost N times/InvokeCallbackAtmostNTimes'
 		)
 )
+const ImplementArrayPrototypeSort = lazy(
+	() =>
+		import(
+			'./questions/implement array prototype sort/ImplementArrayPrototypeSort'
+		)
+)
 
 const AppRouters = createBrowserRouter([
 	{
@@ -111,6 +117,10 @@ const AppRouters = createBrowserRouter([
 			{
 				path: '/invoke-callback-atmost-N-times',
 				element: <InvokeCallbackAtmostNTimes />
+			},
+			{
+				path: '/implement-array-prototype-sort',
+				element: <ImplementArrayPrototypeSort />
 			}
 		]
 	}

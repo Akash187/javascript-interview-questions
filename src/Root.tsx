@@ -147,6 +147,13 @@ export default function Root() {
 						active={location.pathname === '/invoke-callback-atmost-N-times'}
 						onClick={close}
 					/>
+					<NavLink
+						label="12. Implement Array.prototype.sort"
+						component={Link}
+						to="/implement-array-prototype-sort"
+						active={location.pathname === '/implement-array-prototype-sort'}
+						onClick={close}
+					/>
 				</ScrollArea>
 			</AppShell.Navbar>
 			<AppShell.Main>
