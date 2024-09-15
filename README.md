@@ -17,3 +17,4 @@ This is a list of Javascript Interview Questions for Practise.
 10. [Split Array Into N Chunks](https://javascriptiq.netlify.app/split-an-array-into-groups-of-a-certain-length)
 11. [Invoke Callback Atmost N Times](https://javascriptiq.netlify.app/invoke-callback-atmost-N-times)
 12. [Implement Array.prototype.sort](https://javascriptiq.netlify.app/implement-array-prototype-sort)
+13. [Implement a prize calculator](https://javascriptiq.netlify.app/implement-prize-calculator)

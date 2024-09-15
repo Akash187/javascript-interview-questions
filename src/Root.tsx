@@ -154,6 +154,13 @@ export default function Root() {
 						active={location.pathname === '/implement-array-prototype-sort'}
 						onClick={close}
 					/>
+					<NavLink
+						label="13. Implement prize calculator"
+						component={Link}
+						to="/implement-prize-calculator"
+						active={location.pathname === '/implement-prize-calculator'}
+						onClick={close}
+					/>
 				</ScrollArea>
 			</AppShell.Navbar>
 			<AppShell.Main>

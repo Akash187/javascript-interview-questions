@@ -63,6 +63,10 @@ const ImplementArrayPrototypeSort = lazy(
 			'./questions/implement array prototype sort/ImplementArrayPrototypeSort'
 		)
 )
+const ImplementPrizeCalculator = lazy(
+	() =>
+		import('./questions/implement a prize calculator/ImplementPrizeCalculator')
+)
 
 const AppRouters = createBrowserRouter([
 	{
@@ -121,6 +125,10 @@ const AppRouters = createBrowserRouter([
 			{
 				path: '/implement-array-prototype-sort',
 				element: <ImplementArrayPrototypeSort />
+			},
+			{
+				path: '/implement-prize-calculator',
+				element: <ImplementPrizeCalculator />
 			}
 		]
 	}
